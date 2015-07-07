@@ -1,0 +1,153 @@
+
+.content {
+    margin-top: 0;
+    height: 610px;
+}
+.col {
+    height: inherit;
+}
+.kotak-judul{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #b6bcc1;
+    height: 46px;
+}
+.dari{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 20px;
+    border-bottom: 1px solid #b6bcc1;
+    height: 46px;
+}
+.dari .span-0-5{
+    padding-top: 13px;
+}
+.dari .span-11{
+    padding-top: 13px;
+}
+.isi{
+    height: 435px;
+}
+.isi .box.span-10{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 20px;
+    overflow: auto;
+}
+.file{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 73px;
+    height: 20px;
+    margin-bottom: 15px;
+}
+.balas-text{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 20px;
+    height: 46px;
+    border-top: 1px solid #b6bcc1;
+}
+.balas-text .box.span-0-5{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 15px;
+}
+.balas{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 10px;
+}
+.btn{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-block{
+    white-space:normal;
+    display: block;
+    width:120px;
+}
+.btn-lg{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px 5px;
+    margin-top: 2px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse{
+    color:#FFF;
+    background-color:#333333;
+}
+.btn-inverse:hover,.btn-inverse:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+.gambar{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+}
+.namaFile{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 3px;
+    height: 20px;
+}
+.btn{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-block{
+    white-space:normal;
+    display: block;
+    width:80px;
+}
+.btn-lg{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px 0px;
+    font-size:12px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse{
+    color:#FFF;
+    background-color:#333333;
+}
+.btn-inverse:hover,.btn-inverse:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}

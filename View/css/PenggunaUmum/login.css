@@ -1,0 +1,189 @@
+
+.content {
+    margin-top: 0;
+}
+
+/* Icon Admin */
+.masjid{
+    height:552px;
+    background: url('../../img/Login/Masjid3.png');
+}
+.icon{
+    height: 100px;
+}
+.text{
+    margin-top:5px;
+    width: 160px;
+}
+.circle{
+    height: 340px;
+    border-radius:100%;
+    background-color: #333333;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 85px 65px 0px 80px;
+}
+
+.login .box.span-6{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 300px;
+}
+.kiri{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 94px;
+}
+
+.keterangan{
+    color:whitesmoke;
+    height:45px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.input{
+    height:40px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 10px;
+}
+
+.login-form, .login-field {
+    font-size: 12px;
+    width: 214px;
+}
+.login-field:focus {
+    border-color: #1ABC9C;
+}
+.form-control {
+    border: 2px solid #BDC3C7;
+    color: #34495E;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: border 0.25s linear 0s, color 0.25s linear 0s, background-color 0.25s linear 0s;
+}
+.form-control:focus{
+    outline: 0px none;
+    box-shadow: none;
+}
+.btn{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-block{
+    white-space:normal;
+    display: block;
+    width:352px;
+    margin: 10px 0px;
+}
+.btn-lg{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 19px;
+    font-size:12px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse{
+    color:#FFF;
+    background-color:#555555;
+}
+.btn-inverse:hover,.btn-inverse:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+
+.buat{
+    height:30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 5px;
+}
+
+.btn-ok{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+    
+}
+.btn-block-ok{
+    white-space:normal;
+    display: block;
+    width:100px;
+    margin: 10px 0px;
+    margin-left: 570px;
+    margin-top: 20px;
+    z-index:200;
+}
+.btn-lg-ok{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 19px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse-ok{
+    color:#FFF;
+    background-color:#555555;
+}
+.btn-inverse-ok:hover,.btn-inverse-ok:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+.layer{
+    position: absolute;
+    margin-top: -642px;
+    height:675px;
+    background-color: black;
+    opacity: 0.4;
+    z-index:0;
+}
+.pop-up{
+    position:absolute;
+    background-color: white;
+    z-index:100;
+    width: 1240px;
+    margin-top: -400px;
+    height: 150px;
+    padding: 30px 20px 30px 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+.absolute{
+    position: absolute;
+}
+.tabel{
+    width: 100%;
+}
+.perhatian{
+    color: #c0392b;
+    font-size: 24px;
+}
+.jarak-popup{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,137 @@
+
+.content {
+    margin-top: 0;
+    height: 610px;
+}
+.col {
+    height: inherit;
+}
+
+.kotak-luar{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height :530px;
+    padding: 20px 50px 0px 50px;
+    overflow : auto;
+}
+.tombol{
+    height: 80px;
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1px solid #b6bcc1;
+    padding: 20px 0px 0px 85px;
+}
+.browse{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-right: 1px solid #b6bcc1;
+}
+.submit{
+    height: 49px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 0px 0px 200px;
+}
+
+.btn{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-block{
+    white-space:normal;
+    display: block;
+    width:120px;
+}
+.btn-lg{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px 5px;
+    margin-top: 2px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse{
+    color:#FFF;
+    background-color:#333333;
+}
+.btn-inverse:hover,.btn-inverse:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+
+.kotak-luar-foto{
+    height: 250px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 30px;
+}
+
+.kotak-dalam-foto{
+    height: 100%;
+}
+
+.gambar{
+    height:160px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 5px 10px 5px;
+    text-align: center;
+}
+.gambar img{
+    height: 100%;
+}
+.form {
+    border: 2px solid #eeeeee;
+    color: #333333;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 4px 8px 6px 8px;
+    transition: 0.25s;
+    width:200px;
+    height:27px;
+    float:left;
+    background-color: white;
+    font-size: 12px;
+}
+.field:focus {
+    border-color: #1ABC9C;
+}
+
+.nama{
+    width: 100%;
+}
+.check{
+    height:30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 5px 0px;
+}
+.check-box{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 4px;
+}
+.hapus{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 2px;
+}

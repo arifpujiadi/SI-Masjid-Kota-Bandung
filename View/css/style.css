@@ -1,0 +1,244 @@
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+.header .header-top {
+    background-color: #333333;
+    height: 90px;
+    position: relative;
+}
+.header-top .col {
+    height: inherit;
+    background-color: #333333;
+}
+
+.header-top .box.span-2{
+    padding-top: 5px;
+}
+.header-top .box.span-2 img{
+    height: 70px;
+}
+.header-top .box.span-9 {
+    height: inherit;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.header-top .box.span-2 {
+    height: inherit;
+}
+
+.header-top ul.primary {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    text-align: right;
+}
+ul.primary li {
+    position: relative;
+    display: inline;
+    height: inherit;
+}
+ul.primary a {
+    display: inline-block;
+    padding: 34px 15px 36px 15px;
+    color: white;
+    font-size: 16px;
+}
+ul.primary a:hover {
+    color: #1ABC9C;
+    transition-duration: 0.3s;
+}
+/*secondary nav*/
+ul.primary ul {
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+    transition: all 0.25s ease-out 0s;
+    opacity: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+ul.primary ul li a {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ul.primary ul.ul-cari li {
+    margin-left: 0px;
+    width: 140px;
+}
+ul.primary ul.ul-video li{
+    margin-left: 0px;
+    width: 130px;
+}
+
+ul.primary ul li{
+    background: #333333;
+    padding: 5px;
+    display:block;
+    width: 110px;
+    margin-left: 0px;
+}
+
+.li-btm{
+    display: block;
+    border-radius: 0 0 10px 10px;
+}
+
+ul.primary li:hover ul {
+    opacity: 1;
+    top:54px;
+    visibility: visible;
+    z-index: 100;
+    width: 100%;
+}
+ul.primary li:hover a {
+    transition-duration: 0.3s;
+}
+ul.primary li:hover ul a {
+    color: whitesmoke;
+}
+ul.primary ul a {
+    white-space:nowrap;
+    display:block;
+}
+ul.primary li:hover ul a:hover {
+    background: #1ABC9C;
+    transition-duration: 0.3s;
+}
+
+.header-top .box.span-1 {
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-left: 2px dotted whitesmoke;
+    border-right: 2px dotted whitesmoke;
+    margin-top: 30px;
+    height: 24px;
+    padding-top: 3px;
+}
+
+.header-top .box.span-1 a{
+    color: whitesmoke;
+}
+
+.box.span-1 a:hover {
+    color: #1ABC9C;
+    transition-duration: 0.3s;
+}
+
+.login{
+    font-size: 16px;
+}
+
+.footer .box.span-12:first-child {
+    background-color: #7f8c8d;
+}
+.footer .box.span-12:first-child .col-2 {
+    text-align: justify;
+    color: white;
+}
+.footer .box.span-12:first-child span {
+    vertical-align: middle;
+}
+.footer .box.span-12:last-child {
+    background-color: #333333;
+}
+.footer .box.span-12:last-child .col {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.footer .col{
+    background-color: #333333;
+}
+
+.href-white{
+    text-decoration: none;
+    color: white;
+}
+.href-white:hover{
+    color: #1ABC9C;;
+}
+.href-black{
+    text-decoration: none;
+    color: black;
+}
+.href-black:hover{
+    color: #1ABC9C;;
+}
+
+.center{
+    text-align: center;
+}
+
+.middle{
+    vertical-align: middle;
+}
+
+.top{
+    vertical-align: top;
+}
+
+.inherit{
+    height: inherit;
+}
+
+
+
+.red{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid red;
+}
+
+.yellow{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid yellow;
+}
+
+.green{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid green;
+}
+
+.blue{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid blue;
+}
+body{
+    background-color: rgba(0,0,0,0.05);
+}
+.content{
+    background-color: white;
+}

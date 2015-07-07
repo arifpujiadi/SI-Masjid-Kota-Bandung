@@ -1,0 +1,101 @@
+
+.content {
+    margin-top: 0;
+}
+
+/* Tentang Web */
+.tentangWeb .box.span-7{
+    height:300px;
+}
+.tentang{
+    height: 300px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 10px;
+}
+.tentang-text{
+    width:150px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.tentang-img{
+    height: 300px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 30px;
+    text-align: center;
+}
+.tentang-img img{
+    width: 420px;
+}
+
+/* Login */
+.login{
+    height: 200px;
+}
+.login-img{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+}
+.login-img img{
+    width: 300px;
+}
+.login-text{
+    width: 140px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+/* Admin Utama */
+.adminUtama{
+    height: 200px;
+}
+.adminUtama-img{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 20px;
+    height: 200px;
+    text-align: center;
+}
+.adminUtama-img img{
+    width: 150px;
+}
+.adminUtama-text{
+    width: 160px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* Admin Masjid */
+.adminMasjid{
+    height: 300px;
+}
+.adminMasjid-img{
+    padding-top: 20px;
+    height: 300px;
+    text-align: center;
+}
+.adminMasjid-img img{
+    width: 300px;
+}
+.adminMasjid-text{
+    width: 160px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}

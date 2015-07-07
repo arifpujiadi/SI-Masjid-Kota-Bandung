@@ -1,0 +1,310 @@
+
+.content {
+    margin-top: 0;
+    height: 610px;
+}
+.col {
+    height: inherit;
+}
+.kotak-judul{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 17px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #b6bcc1; 
+}
+.kotak-tengah{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.judul{
+    height: 70px;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 25px;
+    border-bottom: 1px solid #b6bcc1; 
+}
+.kanan{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-left: 1px solid #B6BCC1;
+    padding-left: 50px;
+}
+.baris{
+    height: 32px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.baris-upload{
+    height: 32px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 10px;
+}
+.kolom{
+    height: inherit;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 10px;
+}
+.kolom-field{
+    height: inherit;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 7px;
+}
+.form {
+    border: 2px solid #eeeeee;
+    color: #333333;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 4px 8px 6px 8px;
+    transition: 0.25s;
+    width:200px;
+    height:27px;
+    float:left;
+    background-color: white;
+    font-size: 12px;
+}
+.field:focus {
+    border-color: #1ABC9C;
+}
+.id{
+    width: 200px;
+}
+.pass{
+    width: 170px;
+}
+.button{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 8px;
+    height: inherit;
+}
+.btn{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-block{
+    white-space:normal;
+    display: block;
+    width:120px;
+}
+.btn-lg{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px 5px;
+    margin-top: 2px;
+    font-size:13px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse{
+    color:#FFF;
+    background-color:#333333;
+}
+.btn-inverse:hover,.btn-inverse:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+.styled-select {
+    width: 120px;
+    overflow: hidden;
+    background: url(../../img/Panah/panahBawah.png) no-repeat right #333333;
+    border: 1px solid #333333;
+    border:0;
+    border-radius:6px;
+}
+
+.styled-select select {
+    background: transparent;
+    width:140px;
+    text-indent: 0.01px;
+    text-overflow: "";
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 27px;
+    -webkit-appearance: none;
+    color:#fff;
+}
+.option{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding:3px;
+    border-radius:5px;
+    margin:3px;
+    color:#fff;
+}
+
+.keterangan{
+    height: inherit;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 8px;
+}
+.kotak-luar{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.kecil{
+    width: 150px;
+}
+.buat{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 520px;
+    padding-top: 20px;
+}
+.baris-buat{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-top: 1px solid #B6BCC1;
+    
+}
+.visible{
+    opacity: 0;
+    margin-top: -25px;
+    position: absolute;
+    z-index: 10;
+}
+
+.btn-ok{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+    
+}
+.btn-block-ok{
+    white-space:normal;
+    display: block;
+    width:100px;
+    margin: 10px 0px;
+    margin-left: 570px;
+    margin-top: 20px;
+    z-index:200;
+}
+.btn-lg-ok{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 19px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse-ok{
+    color:#FFF;
+    background-color:#555555;
+}
+.btn-inverse-ok:hover,.btn-inverse-ok:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+.jarak-popup{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.layer{
+    position: absolute;
+    margin-top: -675px;
+    height:675px;
+    background-color: black;
+    opacity: 0.4;
+    z-index:0;
+}
+.pop-up{
+    position:absolute;
+    background-color: white;
+    z-index:100;
+    width: 1240px;
+    margin-top: -450px;
+    height: 150px;
+    padding: 30px 20px 30px 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+.absolute{
+    position: absolute;
+}
+.tabel{
+    width: 100%;
+}
+.tabel-sukses{
+    width: 100%;
+    margin-top: 45px;
+}
+.perhatian{
+    color: #c0392b;
+    font-size: 24px;
+}
+.sukses{
+    color: #1ABC9C;
+    font-size: 50px;
+}
+
+.jarak{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-bottom: 10px;
+    padding-left: 250px;
+}
+
+.simpan{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 400px;
+    padding-top: 30px;
+}

@@ -1,0 +1,641 @@
+
+.content {
+    margin-top: 0;
+    min-height: 610px;
+}
+.col {
+    height: inherit;
+}
+.kotak-judul{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 17px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #b6bcc1; 
+}
+.kotak-kiri{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.btn{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-block{
+    white-space:normal;
+    display: block;
+    width:120px;
+}
+.btn-lg{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px 5px;
+    margin-top: 2px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse{
+    color:#FFF;
+    background-color:#333333;
+}
+.btn-inverse:hover,.btn-inverse:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+.kotak-kiri div{
+    height: 29px;
+}
+.padding{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 4px;
+}
+.form {
+    border: 2px solid #eeeeee;
+    color: #333333;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 4px 8px 6px 8px;
+    transition: 0.25s;
+    width:200px;
+    height:27px;
+    float:left;
+    background-color: white;
+    font-size: 12px;
+}
+.field:focus {
+    border-color: #1ABC9C;
+}
+
+.styled-select {
+    width: 80px;
+    overflow: hidden;
+    background: url(../../img/Panah/panahBawah.png) no-repeat right #333333;
+    border: 1px solid #333333;
+    border:0;
+    border-radius:6px;
+}
+
+.styled-select select {
+    background: transparent;
+    width:110px;
+    text-indent: 0.01px;
+    text-overflow: "";
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    -webkit-appearance: none;
+    color:#fff;
+}
+.styled-select-wilayah {
+    width: 110px;
+    overflow: hidden;
+    background: url(../../img/Panah/panahBawah.png) no-repeat right #333333;
+    border: 1px solid #333333;
+    border:0;
+    border-radius:6px;
+}
+
+.styled-select-wilayah select {
+    background: transparent;
+    width:130px;
+    text-indent: 0.01px;
+    text-overflow: "";
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    -webkit-appearance: none;
+    color:#fff;
+}
+.hari {
+    width:70px;
+}
+
+.hari select {
+    background: transparent;
+    width:90px;
+    text-indent: 0.01px;
+    text-overflow: "";
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 27px;
+    -webkit-appearance: none;
+    color:#fff;
+}
+.option{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding:3px;
+    border-radius:5px;
+    margin:3px;
+    color:#fff;
+}
+.jarak-bawah{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.jarak-normal{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 5px;
+}
+.non-jeda{
+    width: 120px;
+}
+.jeda{
+    width: 100px;
+}
+.nama{
+    width: 235px;
+}
+.jalan{
+    width: 235px;
+}
+.satuan{
+    padding-left: 7px;
+}
+.tahun{
+    width: 55px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-top: 2px;
+}
+.kotak-kanan{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #b6bcc1; 
+}
+.textarea{
+    vertical-align:text-top; 
+    text-align:left;
+}
+.checkbox{
+    padding-top: 2px;
+}
+.kegiatan{
+    width: 140px;
+}
+.jam{
+    width: 55px;
+}
+.simpan{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 250px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.styled-select-tanggal {
+    width: 80px;
+    overflow: hidden;
+    background: url(../../img/Panah/panahBawah.png) no-repeat right #333333;
+    border: 1px solid #333333;
+    border:0;
+    border-radius:6px;
+}
+
+.styled-select-tanggal select {
+    background: transparent;
+    width:110px;
+    text-indent: 0.01px;
+    text-overflow: "";
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    -webkit-appearance: none;
+    color:#fff;
+}
+.styled-select-bulan {
+    width: 95px;
+    overflow: hidden;
+    background: url(../../img/Panah/panahBawah.png) no-repeat right #333333;
+    border: 1px solid #333333;
+    border:0;
+    border-radius:6px;
+}
+
+.styled-select-bulan select {
+    background: transparent;
+    width:125px;
+    text-indent: 0.01px;
+    text-overflow: "";
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    -webkit-appearance: none;
+    color:#fff;
+}
+.styled-select-angkot {
+    width: 210px;
+    overflow: hidden;
+    background: url(../../img/Panah/panahBawah.png) no-repeat right #333333;
+    border: 1px solid #333333;
+    border:0;
+    border-radius:6px;
+}
+.styled-select-angkot select {
+    background: transparent;
+    width:230px;
+    text-indent: 0.01px;
+    text-overflow: "";
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    -webkit-appearance: none;
+    color:#fff;
+}
+.turun{
+    width: 200px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-left: 15px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+}
+
+.layer{
+    position: absolute;
+    margin-top: -675px;
+    height:675px;
+    background-color: black;
+    opacity: 0.4;
+    z-index:0;
+}
+.pop-up{
+    position:absolute;
+    background-color: white;
+    z-index:100;
+    width: 1240px;
+    margin-top: -433px;
+    height: 150px;
+    padding: 30px 20px 30px 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+.absolute{
+    position: absolute;
+}
+.tabel{
+    width: 100%;
+}
+.tabel-sukses{
+    width: 100%;
+    margin-top: 45px;
+}
+.perhatian{
+    color: #c0392b;
+    font-size: 24px;
+}
+.sukses{
+    color: #1ABC9C;
+    font-size: 50px;
+}
+.jarak-popup{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn-ok{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+    
+}
+.btn-block-ok{
+    white-space:normal;
+    display: block;
+    width:100px;
+    margin: 10px 0px;
+    margin-left: 570px;
+    margin-top: 20px;
+    z-index:200;
+}
+.btn-lg-ok{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 19px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse-ok{
+    color:#FFF;
+    background-color:#555555;
+}
+.btn-inverse-ok:hover,.btn-inverse-ok:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+
+//popup
+.visible{
+    opacity: 0;
+    margin-top: -25px;
+    position: absolute;
+    z-index: 10;
+}
+.layer-ubahData{
+    position: absolute;
+    margin-top: -675px;
+    height:675px;
+    background-color: black;
+    opacity: 0.4;
+    z-index:0;
+}
+.pop-up-ubahData{
+    position:absolute;
+    background-color: white;
+    z-index:100;
+    width: 1240px;
+    margin-top: -450px;
+    height: 150px;
+    padding: 30px 20px 30px 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+.absolute{
+    position: absolute;
+}
+.tabel{
+    width: 100%;
+}
+.tabel-sukses{
+    width: 100%;
+    margin-top: 45px;
+}
+.perhatian{
+    color: #c0392b;
+    font-size: 24px;
+}
+.sukses{
+    color: #1ABC9C;
+    font-size: 50px;
+}
+.jarak-popup{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn-ok{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+    
+}
+.btn-block-ok{
+    white-space:normal;
+    display: block;
+    width:100px;
+    margin: 10px 0px;
+    margin-left: 570px;
+    margin-top: 20px;
+    z-index:200;
+}
+.btn-lg-ok{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 19px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse-ok{
+    color:#FFF;
+    background-color:#555555;
+}
+.btn-inverse-ok:hover,.btn-inverse-ok:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+
+.btn-tambah{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-block-tambah{
+    white-space:normal;
+    display: block;
+    width: 31px;
+    height: 31px;
+}
+.btn-lg-tambah{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 8px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:100%;
+}
+.btn-ubah-inverse{
+    color:#FFF;
+    background-color:#333333;
+}
+.btn-ubah-inverse:hover,.btn-ubah-inverse:focus{
+    color:#FFF;
+    background-color:#3498db;
+    border-color:#3498db;
+}
+
+.tambah img{
+    height:15px;
+    margin-left: 0px;
+}
+
+.keterangan{
+    color: #919191;
+    padding-top: 7px;
+}
+.jarak-bawah-tambah{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+.lokasi{
+    width: 440px;
+}
+.visible{
+    opacity: 0;
+    margin-top: -25px;
+    position: absolute;
+    z-index: 10;
+}
+.input{
+    position: relative; 
+    width:121px;
+    height:25px;
+    margin-top: 1px;
+    margin-left: -1px;
+}
+.unduh{
+    position: absolute;
+}
+.file{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 45px;
+}
+
+.side{
+    height:inherit;
+}
+.sidebar {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #333333;
+    min-height: 610px;
+}
+.sidebar > ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+.sidebar li {
+    line-height: 45px;
+}
+.sidebar a{
+    display: block;
+    background: #333333;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1px solid grey;
+}
+.ul-secondary a{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 0px solid grey;
+}
+.primary li a:hover{
+    color: #1ABC9C;
+    transition-duration: 0.3s;
+}
+.atas {
+    border-top: 1px solid grey;
+    
+}
+
+/*Secondary*/
+.sidebar li ul {
+    display: none;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+}
+.sidebar li ul a {
+    padding-left: 30px;
+    background: #282828;
+}
+.sidebar li ul{
+    background: #282828;
+}
+.sidebar li ul:last-child{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1px solid grey;
+}
+
+.ul-secondary li a:hover{
+    transition-duration: 0.3s;
+    color: #1ABC9C;
+    display: block;
+}
+.slider{
+    height: 610px;
+    overflow : auto;
+}

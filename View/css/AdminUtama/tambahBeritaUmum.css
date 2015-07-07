@@ -1,0 +1,145 @@
+
+.content {
+    margin-top: 0;
+    height: 610px;
+}
+.col {
+    height: inherit;
+}
+.kotak-judul{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 17px;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #b6bcc1; 
+}
+.padding{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 5px;
+}
+.judul{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form {
+    border: 2px solid #eeeeee;
+    color: #333333;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 4px 8px 6px 8px;
+    transition: 0.25s;
+    width:200px;
+    height:27px;
+    float:left;
+    background-color: white;
+    font-size: 12px;
+}
+.field:focus {
+    border-color: #1ABC9C;
+}
+.judul-berita{
+    width: 567px;
+}
+.btn{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-block{
+    white-space:normal;
+    display: block;
+    width:120px;
+}
+.btn-lg{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px 5px;
+    margin-top: 2px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse{
+    color:#FFF;
+    background-color:#333333;
+}
+.btn-inverse:hover,.btn-inverse:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+.textarea{
+    vertical-align:text-top; 
+    text-align:left;
+}
+.simpan{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 490px;
+    margin-top: 50px;
+    padding-bottom: 15px;
+}
+.styled-select {
+    width: 120px;
+    overflow: hidden;
+    background: url(../../img/Panah/panahBawah.png) no-repeat right #333333;
+    border: 1px solid #333333;
+    border:0;
+    border-radius:6px;
+}
+
+.styled-select select {
+    background: transparent;
+    width:140px;
+    text-indent: 0.01px;
+    text-overflow: "";
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 30px;
+    -webkit-appearance: none;
+    color:#fff;
+}
+.option{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding:3px;
+    border-radius:5px;
+    margin:3px;
+    color:#fff;
+}
+.nama{
+    width:200px;
+}
+.visible{
+    opacity: 0;
+    margin-top: -25px;
+    position: absolute;
+    z-index: 10;
+}

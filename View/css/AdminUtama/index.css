@@ -1,0 +1,26 @@
+
+.content {
+    margin-top: 0;
+    height: 610px;
+}
+.col {
+    height: inherit;
+}
+.content-gambar{
+    height:610px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 170px;
+}
+.gambar img{
+    width: 700px;
+}
+.adminUtama{
+    font-size: 16px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}

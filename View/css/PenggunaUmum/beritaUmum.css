@@ -1,0 +1,85 @@
+
+.slideBerita{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 10px;
+}
+.berita{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom:1px solid #b6bcc1;
+}
+.gambar{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 15px 0px 5px 50px;
+}
+.gambar img:hover{
+    transform: scale(1.07);
+    transition: 0.2s;
+}
+.berita-img{
+    height: 95px;
+    width: 95px;
+    box-shadow: 0px 0px 5px black;
+    border-radius:100% 100% 100% 100%;
+}
+.judul{
+    height: 45px;
+    font-size:17px;
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 15px;
+}
+.tanggal{
+    height: 20px;
+    color:#6C7A89;
+}
+.keterangan{
+    height: 55px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+/*Button*/
+.panah-kiri{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-bottom: 6px;
+    padding-top: 8px;
+}
+
+.panah-kanan{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-bottom: 6px;
+    padding-top: 8px;
+    padding-left: 73px;
+}
+.button .box.span-1 img {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 40px;
+}
+
+.panah:hover,.panah:focus {
+    cursor:pointer;
+    transition:0.25s;
+    transform: scale(1.15);
+    transition: 0.2s;
+}
+.sizeBoxBerita{
+    height: 552px;
+}

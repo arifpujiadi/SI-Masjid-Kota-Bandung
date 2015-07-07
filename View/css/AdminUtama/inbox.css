@@ -1,0 +1,224 @@
+
+.content {
+    margin-top: 0;
+    height: 610px;
+}
+.col {
+    height: inherit;
+}
+.kotak-judul{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 20px;
+    border-bottom: 1px solid #b6bcc1; 
+}
+
+.check{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 9px;
+}
+.hapus{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 15px;
+    padding-bottom: 9px;
+}
+.trash{
+    height:20px;
+    float: right;
+}
+.hapus-text{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 3px;
+    padding-left: 5px;
+}
+.slider{
+    height:470px;
+}
+.message{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 20px;
+    border-bottom: 1px solid #b6bcc1;
+    height: 46px;
+}
+.checkbox{
+    height: inherit;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 16px;
+}
+.jarak{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 15px;
+    height: inherit;
+}
+.halaman{
+    height:40px;
+}
+.button{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.button .box.span-1 img {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 30px;
+}
+.panah-kanan{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 53px;
+}
+.panah:hover,.panah:focus {
+    cursor:pointer;
+    transition:0.25s;
+    transform: scale(1.15);
+    transition: 0.2s;
+}
+.gambar{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-right: 18px;
+}
+.btn{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-block{
+    white-space:normal;
+    display: block;
+    width:65px;
+}
+.btn-lg{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px 0px;
+    font-size:12px;
+    line-height:0.5;
+    border-radius:6px;
+    margin-top: -3px;
+    margin-left: -12px;
+}
+.btn-inverse{
+    color:#FFF;
+    background-color:#333333;
+}
+.btn-inverse:hover,.btn-inverse:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+
+//popup
+.visible{
+    opacity: 0;
+    margin-top: -25px;
+    position: absolute;
+    z-index: 10;
+}
+.layer-ubahData{
+    position: absolute;
+    margin-top: -675px;
+    height:675px;
+    background-color: black;
+    opacity: 0.4;
+    z-index:0;
+}
+.pop-up-ubahData{
+    position:absolute;
+    background-color: white;
+    z-index:100;
+    width: 1240px;
+    margin-top: -450px;
+    height: 150px;
+    padding: 30px 20px 30px 20px;
+    font-size: 16px;
+    text-align: justify;
+}
+.absolute{
+    position: absolute;
+}
+.tabel{
+    width: 100%;
+}
+.tabel-sukses{
+    width: 100%;
+    margin-top: 45px;
+}
+.perhatian{
+    color: #c0392b;
+    font-size: 24px;
+}
+.sukses{
+    color: #1ABC9C;
+    font-size: 50px;
+}
+.jarak-popup{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn-ok{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+    
+}
+.btn-block-ok{
+    white-space:normal;
+    display: block;
+    width:100px;
+    margin: 10px 0px;
+    margin-left: 570px;
+    margin-top: 20px;
+    z-index:200;
+}
+.btn-lg-ok{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 19px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse-ok{
+    color:#FFF;
+    background-color:#555555;
+}
+.btn-inverse-ok:hover,.btn-inverse-ok:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}

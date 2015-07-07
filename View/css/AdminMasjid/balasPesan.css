@@ -1,0 +1,219 @@
+
+.content {
+    margin-top: 0;
+    height: 610px;
+}
+.col {
+    height: inherit;
+}
+.baris{
+    height: 47px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 30px;
+}
+.tabel{
+    width: 100%;
+    height: inherit;
+}
+.keterangan{
+    width: 60%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 15px;
+}
+.titik{
+    width: 40%;
+}
+.radio{
+    width: 20%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 5px;
+}
+.radio-text{
+    width: 80%;
+}
+.combo{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 7px;
+}
+.styled-select {
+    width: 130px;
+    height: 30px;
+    overflow: hidden;
+    background: url(../../img/Panah/panahBawah.png) no-repeat right #333333;
+    border: 1px solid #333333;
+    border:0;
+    border-radius:6px;
+}
+
+.styled-select select {
+    background: transparent;
+    width:150px;
+    text-indent: 0.01px;
+    text-overflow: "";
+     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 1;
+    border: 0;
+    border-radius: 5px;
+    height: 34px;
+    -webkit-appearance: none;
+    color:#fff;
+}
+
+.option{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding:3px;
+    border-radius:5px;
+    margin:3px;
+    color:#fff;
+}
+.judul{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 8px;
+}
+.form {
+    border: 2px solid #eeeeee;
+    color: #333333;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 4px 8px 6px 8px;
+    transition: 0.25s;
+    width:657px;
+    height:27px;
+    float:left;
+    background-color: white;
+    font-size: 12px;
+}
+
+.field:focus {
+    border-color: #1ABC9C;
+}
+
+.isi{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 30px; 
+}
+.kirim{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 10px;
+}
+.btn{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-block{
+    white-space:normal;
+    display: block;
+    width:120px;
+}
+.btn-lg{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px 5px;
+    margin-top: 2px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse{
+    color:#FFF;
+    background-color:#333333;
+}
+.btn-inverse:hover,.btn-inverse:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+.visible{
+    opacity: 0;
+    margin-top: -25px;
+    position: absolute;
+    z-index: 10;
+}
+.jarakKirim{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 30px;
+}
+
+.tab-cont ul.tab {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    text-align: left;
+}
+ul.tab li {
+    position: relative;
+    display: inline;
+    height: inherit;
+}
+ul.tab a {
+    display: inline-block;
+    padding: 15px 20px 15px 0px;
+    color: black;
+    font-size: 16px;
+}
+ul.tab a:hover {
+    color: #1ABC9C;
+    transition-duration: 0.3s;
+}
+
+.pesan-display{
+    display : none;
+}
+.pesan-display.active{
+    display : block;
+}
+.ke{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.button{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 14px; 
+    padding-top: 10px;
+}
+.infoFile{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 14px; 
+    padding-top: 14px; 
+    padding-left: 40px;
+}

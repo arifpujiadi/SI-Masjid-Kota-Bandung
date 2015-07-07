@@ -1,0 +1,238 @@
+
+.content {
+    margin-top: 0;
+}
+.col {
+    height: inherit;
+}
+.kotak-kiri{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 15px 10px 0px 20px;
+}
+.foto-masjid{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 15px 0px;
+    text-align: center;
+}
+.img-masjid{
+    vertical-align:top;
+    width:130px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.8);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 10px;
+}
+.judul{
+    font-size: 16px;
+    border-bottom: 1px solid #b6bcc1;
+}
+.jarak-data{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding:5px 0px;
+}
+.sub-data{
+    width: 135px;
+}
+.button{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 95px;
+}
+.btn{
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-block{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    white-space:normal;
+    display: block;
+    width:100px;
+    margin: 20px 0px;
+}
+.btn-lg{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 19px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-inverse{
+    color:#FFF;
+    background-color:#333333;
+}
+.btn-inverse:hover,.btn-inverse:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+.kotak-tengah{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 30px 15px 30px 15px;
+    border-left: 1px solid #b6bcc1;
+    border-right: 1px solid #b6bcc1;
+}
+.gambarBerita{
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 20px 0px;
+}
+.img-berita{
+    height:200px;
+}
+.text{
+    text-align: justify;
+    line-height:1.5;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-bottom: 30px;
+}
+.kembali{
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 250px;
+}
+.kotak-kanan{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 30px 20px 0px 20px;
+}
+.judul-berita{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.button-berita{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 80px;
+    border-bottom: 1px solid #b6bcc1;
+}
+.btn-berita{
+    
+    border: medium none;
+    transition: all 0.25s linear 0s;
+    margin-bottom:0px;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    -moz-user-select: none;
+}
+.btn-berita-block{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    white-space:normal;
+    display: block;
+    width:120px;
+    margin: 15px 0px;
+}
+.btn-berita-lg{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 19px;
+    font-size:14px;
+    line-height:0.5;
+    border-radius:6px;
+}
+.btn-berita-inverse{
+    color:#FFF;
+    background-color:#333333;
+}
+.btn-berita-inverse:hover,.btn-berita-inverse:focus{
+    color:#FFF;
+    background-color:#1ABC9C;
+    border-color:#1ABC9C;
+}
+.hari{
+    width:70px;
+}
+.titik{
+    width:20px;
+}
+.bawah-abu{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1px solid #b6bcc1;
+}
+.gambarFile{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+}
+.namaFile{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 20px;
+}
+.file{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 10px 0px;
+    border-bottom: 1px solid #B6BCC1;
+}
+.judulFile{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+.list{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 2px 0px;
+}
+.border{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-bottom: 1px solid #B6BCC1;
+    padding-bottom: 10px;
+}
+.gambar{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 15px;
+    width: 15px;
+    margin-top: 2px;
+}
